@@ -1,0 +1,30 @@
+.Contact-details-container {
+  width: 100%;
+  min-height: 60vh;
+}
+.contact-Details-wraper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-number-wrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: "Mulish", serif;
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: left;
+}
+.contact-Links-wrapper {
+  display: flex;
+  gap: 10px;
+}
+.contact-Links-wrapper .contact-icon {
+  background-color: var(--gray);
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}

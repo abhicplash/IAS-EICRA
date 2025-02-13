@@ -7,7 +7,6 @@ import { BsTelegram } from "react-icons/bs";
 import { BsTwitterX } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import { BsEnvelope } from "react-icons/bs";
 import { BsEnvelopeFill } from "react-icons/bs";
 
 const Topbar = () => {

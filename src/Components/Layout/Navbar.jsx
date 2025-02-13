@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import Topbar from "./Topbar";
 import { Link } from "react-router-dom";
-import logo from "../../Assets/logoImg.png";
+import logo from "../../Assets/logo/logoImg.png";
 import { FaBars } from "react-icons/fa6";
 
 const Navbar = () => {

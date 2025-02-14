@@ -28,7 +28,7 @@ const Navbar = () => {
             <Link to={"/"}>home</Link>
             <Link to={"/about"}>About us</Link>
             <Link to={"/academics"}>academics</Link>
-            <Link to={"/blogs"}>blogs</Link>
+            {/* <Link to={"/blogs"}>blogs</Link> */}
             <Link to={"/contact"}>contact us</Link>
           </div>
         ) : null}
@@ -36,7 +36,7 @@ const Navbar = () => {
           <Link to={"/"}>home</Link>
           <Link to={"/about"}>About us</Link>
           <Link to={"/academics"}>academics</Link>
-          <Link to={"/blogs"}>blogs</Link>
+          {/* <Link to={"/blogs"}>blogs</Link> */}
           <Link to={"/contact"}>contact us</Link>
         </div>
       </div>

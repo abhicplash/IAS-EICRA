@@ -4,6 +4,9 @@
   background: url("../../Assets/banner/banner.jpg");
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .iaseicra {
   font-size: 4rem;
@@ -16,6 +19,8 @@
   min-height: 85vh;
   background-color: #212733c2;
   display: flex;
+  justify-content: center;
+  align-items: center;
   /* flex-direction: column; */
   /* justify-content: center; */
   /* align-items: start; */

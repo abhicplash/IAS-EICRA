@@ -6,17 +6,19 @@ import About from "./Components/Pages/About";
 import Academics from "./Components/Pages/Academics";
 import Blogs from "./Components/Pages/Blogs";
 import Contact from "./Components/Pages/Contact";
+import ScrollToTop from "./Components/Layout/ScrollToTop";
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/academics" element={<Academics />} />
           <Route path="/blogs" element={<Blogs />} />
-          <Route path="/contact" element={<Contact  />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<PNF />} />
         </Routes>
       </BrowserRouter>
@@ -25,4 +27,3 @@ const App = () => {
 };
 
 export default App;
- 

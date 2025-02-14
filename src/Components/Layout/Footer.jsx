@@ -18,37 +18,36 @@ const Footer = () => {
           <img src={logoImg} alt="logoimage" className="logoImg" />
           <img src={logoWrit} alt="logoWriting" className="logoWrit" />
         </div>
-        <div className="FooterLinks">
-          <h3>Navigation</h3>
-          <div className="subcontents">
-            <Link>home</Link>
-            <Link>About us</Link>
-            <Link>Academics</Link>
-            <Link>Blogs</Link>
-            <Link>Contact us</Link>
-          </div>
-        </div>{" "}
-        <div className="FooterLinks">
-          <h3>Navigation</h3>
-          <div className="subcontents">
-            <Link>home</Link>
-            <Link>About us</Link>
-            <Link>Academics</Link>
-            <Link>Blogs</Link>
-            <Link>Contact us</Link>
-          </div>
-        </div>{" "}
-        <div className="FooterLinks">
-          <h3>Navigation</h3>
-          <div className="subcontents">
-            <Link>home</Link>
-            <Link>About us</Link>
-            <Link>Academics</Link>
-            <Link>Blogs</Link>
-            <Link>Contact us</Link>
+        <div className="navInformationWrapper">
+          <div className="FooterLinks">
+            <h3>Navigation</h3>
+            <div className="subcontents">
+              <Link>home</Link>
+              <Link>About us</Link>
+              <Link>Academics</Link>
+              <Link>Blogs</Link>
+              <Link>Contact us</Link>
+            </div>
+          </div>{" "}
+          <div className="FooterLinks">
+            <h3>Contact Information</h3>
+            <div className="subcontents">
+              <a className="numberFooter" href="/">
+                +971-671 65 347
+              </a>
+              <a className="numberFooter" href="/">
+                +971-588 79 3734
+              </a>
+            </div>
+          </div>{" "}
+          <div className="FooterLinks">
+            <h3>Working Time</h3>
+            <div className="subcontents">
+              <span>Monday - Sunday</span>
+              <span className="time">8 AM - 7 PM </span>
+            </div>
           </div>
         </div>
-         
       </div>
       <div className="footer-lower">
         <a href="https://www.facebook.com/p/Iaseicra-Academy-61555656762023">

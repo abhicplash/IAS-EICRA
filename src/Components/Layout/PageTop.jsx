@@ -1,11 +1,11 @@
 import React from 'react'
 import './PageTop.css'
 
-const PageTop = () => {
+const PageTop = ({pageName}) => {
   return (
     <div className="PageTop-container">
         <div className="PageTop-Shadow">
-            <h1>Contact Us</h1>
+            <h1>{pageName}</h1>
         </div>
     </div>
   )

@@ -1,27 +1,21 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./Components/Pages/Home";
-import PNF from "./Components/Pages/PNF";
-import About from "./Components/Pages/About";
-import Academics from "./Components/Pages/Academics";
-import Blogs from "./Components/Pages/Blogs";
-import Contact from "./Components/Pages/Contact";
-import ScrollToTop from "./Components/Layout/ScrollToTop";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import About from "./pages/About";
+import Legal from "./pages/Legal";
 
 const App = () => {
   return (
     <>
-      <BrowserRouter>
-        <ScrollToTop />
+      <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/academics" element={<Academics />} />
-          <Route path="/blogs" element={<Blogs />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<PNF />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/legal" element={<Legal />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
     </>
   );
 };
